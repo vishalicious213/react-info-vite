@@ -1,6 +1,6 @@
 export default function LearnReact() {
     return (
-        <section>
+        <section className="container top-space">
             <h2>Why I want to learn React</h2>
 
             <ul className="factoids">

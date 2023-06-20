@@ -58,6 +58,10 @@ section {
     border-radius: 1rem;
 }
 
+.top-space {
+    margin-top: 1.5rem;
+}
+
 h2 {
     margin-bottom: .75rem;
 }

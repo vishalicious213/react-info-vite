@@ -1,6 +1,6 @@
 export default function AboutReact() {
     return (
-        <section>        
+        <section className="container">        
             <h2>Fun facts about React</h2>
     
             <ul className="factoids">
