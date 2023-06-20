@@ -1,20 +1,5 @@
 import ReactDOM from "react-dom/client"
-import logo from "./public/react.svg"
-
-function Header() {
-    return (
-        <header>
-            <nav>
-                <img className="nav-logo" src={logo} />
-                <ul className="nav-items">
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
-        </header>
-    )
-}
+import Header from "./components/Header"
 
 function AboutReact() {
     return (
