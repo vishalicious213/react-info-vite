@@ -49,6 +49,7 @@ nav {
 
 .nav-items li:hover {
     border-bottom: 2px solid #03BFED;
+    cursor: pointer;
 }
 
 section {
