@@ -8,3 +8,58 @@ html, body {
     color: #1c1c1c;
     background-color: gainsboro;
 }
+
+header {
+    background-color: #A3A3A3;
+    padding: .75rem;
+    margin-bottom: 1.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    width: 4rem;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-items li {
+    border-bottom: 2px solid #A3A3A3;
+    line-height: 1.5rem;
+}
+
+.nav-items li:hover {
+    border-bottom: 2px solid #03BFED;
+}
+
+section {
+    background-color: whitesmoke;
+    padding: .5rem 1rem;
+    margin: 1rem .75rem;
+    border-radius: 1rem;
+}
+
+h2 {
+    margin-bottom: .75rem;
+}
+
+.factoids {
+    line-height: 1.5rem;
+    margin: 0;
+}
+
+footer {
+    padding: 1rem .75rem;
+    position: absolute;
+    bottom: 0;
+    background-color: #C1C1C1;
+    width: 100%;
+}
