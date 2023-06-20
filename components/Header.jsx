@@ -3,7 +3,7 @@ import logo from "../public/react.svg"
 export default function Header() {
     return (
         <header>
-            <nav>
+            <nav className="container">
                 <img className="nav-logo" src={logo} />
                 <ul className="nav-items">
                     <li>Pricing</li>

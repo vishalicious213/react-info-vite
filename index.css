@@ -7,6 +7,17 @@ html, body {
     font-family: 'Lato', sans-serif;
     color: #1c1c1c;
     background-color: gainsboro;
+    /* max-width: 550px; */
+}
+
+#root {
+    height: 100vh;
+    position: relative;
+}
+
+.container {
+    max-width: 550px;
+    margin: 0 auto;
 }
 
 header {
